@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f6fb;
+}
+
+header {
+  background: #2563eb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.doctor {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+button {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #059669;
+}
+
+.times button {
+  margin: 5px;
+}
