@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Doctor Appointment System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🏥 Doctor Appointment System</h1>
+</header>
+
+<main>
+
+  <!-- Doctor Selection -->
+  <section class="card">
+    <h2>Select Doctor</h2>
+
+    <div class="doctor">
+      <h3>Dr. Smith</h3>
+      <p>Cardiologist</p>
+      <button onclick="selectDoctor('Dr. Smith')">Select</button>
+    </div>
+
+    <div class="doctor">
+      <h3>Dr. Johnson</h3>
+      <p>Dermatologist</p>
+      <button onclick="selectDoctor('Dr. Johnson')">Select</button>
+    </div>
+
+  </section>
+
+  <!-- Time Slots -->
+  <section class="card">
+    <h2>Choose Time</h2>
+
+    <div class="times">
+      <button onclick="selectTime('10:00 AM')">10:00 AM</button>
+      <button onclick="selectTime('11:00 AM')">11:00 AM</button>
+      <button onclick="selectTime('1:00 PM')">1:00 PM</button>
+      <button onclick="selectTime('3:00 PM')">3:00 PM</button>
+    </div>
+
+  </section>
+
+  <!-- Confirmation -->
+  <section class="card">
+    <h2>Appointment</h2>
+    <p id="summary">No selection yet</p>
+    <button onclick="confirmBooking()">Confirm Appointment</button>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
